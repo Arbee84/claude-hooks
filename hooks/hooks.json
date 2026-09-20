@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Agent",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/check-model.sh\"",
+            "timeout": 10,
+            "statusMessage": "Checking the agent names a model"
+          }
+        ]
+      }
+    ]
+  }
+}

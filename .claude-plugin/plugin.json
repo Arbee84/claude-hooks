@@ -1,0 +1,6 @@
+{
+  "name": "agent-model-guard",
+  "description": "Refuses an Agent tool call that names no model, so a subagent never inherits the session's model by accident.",
+  "version": "1.0.0",
+  "author": { "name": "Arbee84" }
+}

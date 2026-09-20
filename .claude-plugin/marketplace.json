@@ -1,0 +1,13 @@
+{
+  "name": "arbee84-hooks",
+  "owner": { "name": "Arbee84" },
+  "description": "Hooks Arbee84 wants in every Claude Code session on every device.",
+  "plugins": [
+    {
+      "name": "agent-model-guard",
+      "source": "./",
+      "description": "Refuses an Agent tool call that names no model.",
+      "version": "1.0.0"
+    }
+  ]
+}
